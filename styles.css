@@ -1,0 +1,42 @@
+html * {
+  font-size: 1em;
+  font-weight: bold;
+}
+html {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(65, 75, 110);
+  height: 500px;
+  width: 400px;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 25px;
+}
+#display {
+  flex: 5;
+  background-color: azure;
+  border-radius: 5px;
+}
+
+#menu {
+  display: flex;
+  flex: 3;
+  column-gap: 10px;
+}
+
+#row1,
+#row2,
+#row3,
+#row4 {
+  display: flex;
+  flex: 3;
+  column-gap: 10px;
+}
+button {
+  flex: 3;
+}
